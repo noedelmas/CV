@@ -34,14 +34,20 @@
     margin: 0 0 1rem;
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-decoration: underline;
+    color: orange;
   }
   
+.fas{
+    color: orange;
+}
+
   .text-blue{
-    color: #4472C4;
+    color: orange;
   }
   
   .text-darkblue{
-    color: #002060;
+    color: orange;
   }
   
   .text-uppercase{
