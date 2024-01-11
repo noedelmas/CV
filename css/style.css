@@ -130,3 +130,27 @@
   .experience-list{
     list-style-type: circle;
   }
+
+  @media (max-width : 700px ){
+  .cv-container{
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }
+  .header{
+    justify-content: center;
+    padding: 15px;
+  }
+  .left-column{
+    max-width: 100%;
+  }
+}
+@media (max-width : 400px ){
+  .right-column{
+    max-width: 100%;
+    padding: 0;
+  }
+  .header{
+    padding: 0;
+  }
+}
